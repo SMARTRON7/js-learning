@@ -20,3 +20,27 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction);
+
+
+// Stack(Primitive) Heap(Non Primitive)
+
+let myChannel = "Storm_Gaming"
+
+let anotherName = myChannel
+anotherName = "OnePieceMemes"
+
+console.log(anotherName);
+console.log(myChannel);
+
+let userOne = {
+    email: "userOne@gmail.com",
+    pass: "123456"
+}
+
+let userTwo = userOne
+
+userTwo.email = "userTwo@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
+
